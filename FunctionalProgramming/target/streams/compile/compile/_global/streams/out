@@ -1,11 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E046] Cyclic Error: /Users/dieuveillesuthimpounkouonkoud/Documents/GitHub/2023-server-gros-test-socializus-eu/Webview/FunctionalProg/FunctionalProgramming/src/main/scala/com/mygraph/Main.scala:6:24 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m[33mobject[0m [35mMain[0m [33mextends[0m zio.App {[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                        ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                        Cyclic reference involving val <import>[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/dieuveillesuthimpounkouonkoud/Documents/GitHub/2023-server-gros-test-socializus-eu/Webview/FunctionalProg/FunctionalProgramming/src/main/scala/com/mygraph/Main.scala:4:11 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m zio.console._[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       value console is not a member of zio - did you mean zio.Console?[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/dieuveillesuthimpounkouonkoud/Documents/GitHub/2023-server-gros-test-socializus-eu/Webview/FunctionalProg/FunctionalProgramming/src/main/scala/com/mygraph/Main.scala:58:84 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m58 |[0m      _ <- printLine([31m"GraphViz representation of Weighted Graph:\n"[0m + weightedGraph.toGraphViz)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   value toGraphViz is not a member of com.mygraph.WeightedGraph[String][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

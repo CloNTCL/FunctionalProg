@@ -1,1 +1,1 @@
-["com.mygraph.DirectedGraphSpec","com.mygraph.GraphSpec","com.mygraph.CycleDetectionSpec","com.mygraph.TopologicalSortSpec"]
+["com.mygraph.CycleDetectionSpec","com.mygraph.DirectedGraphSpec","com.mygraph.DijkstraSpec","com.mygraph.FloydWarshallSpec","com.mygraph.GraphVizSpec","com.mygraph.TopologicalSortSpec","com.mygraph.GraphSpec"]

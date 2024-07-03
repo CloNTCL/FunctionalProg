@@ -1,2 +1,22 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/dieuveillesuthimpounkouonkoud/Documents/GitHub/2023-server-gros-test-socializus-eu/Webview/FunctionalProg/FunctionalProgramming/target/scala-3.3.3/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/dieuveillesuthimpounkouonkoud/Documents/GitHub/2023-server-gros-test-socializus-eu/Webview/FunctionalProg/FunctionalProgramming/target/scala-3.3.3/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FloydWarshallSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TopologicalSortSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DirectedGraphSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CycleDetectionSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GraphVizSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GraphSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DijkstraSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FloydWarshallSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TopologicalSortSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DirectedGraphSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CycleDetectionSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GraphVizSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GraphSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DijkstraSpec.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/dieuveillesuthimpounkouonkoud/Documents/GitHub/2023-server-gros-test-socializus-eu/Webview/FunctionalProg/FunctionalProgramming/target/scala-3.3.3/test-classes.bak[0m
