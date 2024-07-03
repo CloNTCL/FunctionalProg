@@ -1,11 +1,33 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.mygraph.GraphSpec, org.scalatest.tools.Framework$$anon$1@1797db09, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.mygraph.GraphSpec, org.scalatest.tools.Framework$$anon$1@7925e5e7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.mygraph.CycleDetectionSpec, org.scalatest.tools.Framework$$anon$1@7925e5e7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.mygraph.TopologicalSortSpec, org.scalatest.tools.Framework$$anon$1@7925e5e7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.mygraph.DirectedGraphSpec, org.scalatest.tools.Framework$$anon$1@7925e5e7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDirectedGraphSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA DirectedGraph[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add edges correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return vertices correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCycleDetectionSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCycleDetection[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should detect a cycle in a directed graph[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not detect a cycle in a directed acyclic graph (DAG)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mGraphSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mA DirectedGraph[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should add edges correctly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 168 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopologicalSortSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopologicalSort[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should sort vertices in topological order *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List("A", "C", "B", "D") did not equal List("A", "B", "D", "C") (TopologicalSortSpec.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(1: C -> B, 2: B -> D, 3: D -> C)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 199 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.mygraph.DirectedGraphSpec[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com.mygraph.GraphSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.mygraph.CycleDetectionSpec[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	com.mygraph.TopologicalSortSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

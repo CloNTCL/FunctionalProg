@@ -1,1 +1,1 @@
-["com.mygraph.GraphSpec"]
+["com.mygraph.DirectedGraphSpec","com.mygraph.GraphSpec","com.mygraph.CycleDetectionSpec","com.mygraph.TopologicalSortSpec"]

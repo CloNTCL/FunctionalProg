@@ -1,3 +1,5 @@
 #Successful Tests
-#Wed Jul 03 14:42:39 CEST 2024
-com.mygraph.GraphSpec=1720010559059
+#Wed Jul 03 17:42:25 CEST 2024
+com.mygraph.CycleDetectionSpec=1720021345131
+com.mygraph.GraphSpec=1720021345131
+com.mygraph.DirectedGraphSpec=1720021345131
